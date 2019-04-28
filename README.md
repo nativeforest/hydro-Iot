@@ -2,7 +2,7 @@
 ##usage
 
 ``` js
-const setupDatabase = require('platziverse-db')
+const setupDatabase = require('se-db')
 
 setupDabase(config).then(db => {
   const { Agent, Metric } = db
